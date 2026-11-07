@@ -1,0 +1,10 @@
+# ASR worker dependencies (install into a-gen\venv, not the PyInstaller exe):
+#   a-gen\venv\Scripts\python.exe -m pip install -r frontend_build\requirements_asr.txt
+#
+# SenseVoice is the default, fast CPU path.  faster-whisper is optional and is
+# already present in the GPT-SoVITS environment; it can be selected with
+# "asr_engine": "whisper" in config.json.
+sounddevice>=0.5
+funasr>=1.3
+modelscope>=1.20
+numpy

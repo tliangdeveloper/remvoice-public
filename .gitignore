@@ -1,0 +1,25 @@
+# Runtime data (may contain personal chat / API key)
+聊天记录/
+生成音频/
+logs/
+config.json
+frontend_build/runtime/
+frontend_build/.testtmp/
+frontend_build/.pyinstaller_cache/
+
+# Build products
+build/
+dist/
+*.spec
+**/__pycache__/
+*.py[cod]
+*.exe
+
+# Models / audio / large assets
+*.wav
+*.pth
+*.ckpt
+*.onnx
+*.zip
+*.7z
+assets/
